@@ -2,12 +2,13 @@
 
 Rhythmonic Academy — Smart Music Learning & Academy Management Platform (frontend demo).
 
-## Frontend
-
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
 
-App lives in [`frontend/`](./frontend).
+Build for production:
+
+```bash
+npm run build
+```
