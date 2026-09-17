@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+frontend/node_modules
+frontend/dist
+frontend/dist-ssr
+*.local
+*.log

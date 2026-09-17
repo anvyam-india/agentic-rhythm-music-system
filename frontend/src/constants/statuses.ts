@@ -1,0 +1,18 @@
+export const STATUS_LABELS = {
+  active: 'Active',
+  inactive: 'Inactive',
+  on_hold: 'On Hold',
+  on_leave: 'On Leave',
+  present: 'Present',
+  absent: 'Absent',
+  late: 'Late',
+  excused: 'Excused',
+  paid: 'Paid',
+  pending: 'Pending',
+  overdue: 'Overdue',
+  upcoming: 'Upcoming',
+  live: 'Live',
+  completed: 'Completed',
+  cancelled: 'Cancelled',
+  scheduled: 'Scheduled',
+} as const
