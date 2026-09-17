@@ -70,7 +70,7 @@ export default function AiCopilotPage() {
     }, 900)
   }
 
-  const handleVoiceChat = (userText: string, aiText: string) => {
+  const handleVoiceResult = (userText: string, aiText: string) => {
     setMessages((prev) => {
       const next = [...prev]
       if (userText) next.push({ role: 'user', content: userText, agent })
@@ -84,7 +84,7 @@ export default function AiCopilotPage() {
   return (
     <>
       {voiceMode ? (
-        <VoiceMode onClose={() => setVoiceMode(false)} onAddToChat={handleVoiceChat} />
+        <VoiceMode onClose={() => setVoiceMode(false)} onResult={handleVoiceResult} />
       ) : null}
 
       <PageContainer className="!py-4">
